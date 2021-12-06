@@ -1,0 +1,55 @@
+//Empieza Contenido Principal
+
+.home{
+    margin-top: $s-50;
+}
+
+.home__image{ 
+    display: $d-flex;
+    width: $w-40;
+    margin-left: 220px;
+} 
+
+.home__text{
+    width: $w-30;
+}
+
+.home__title{
+    font-size: 3rem;
+    margin-top: $s-50;  
+    color: $primary;
+}
+
+.home__info{
+    margin-top: 60px;
+    margin-left: 55px;
+    font-size: 1.6rem;
+    font-weight: 200;
+    color: $secondary;
+}
+
+//Termina Contenido Principal
+
+// Comienza Footer
+.footer__home-spacing{
+    width: $w-75;
+    display: $d-flex;
+    justify-content: space-between;
+    padding-left: $s-50;
+    padding-right: $s-50;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+.footer__home-socialMedia{
+    display: flex;
+    width: 13%;
+    justify-content: space-between;
+}
+
+.footer__home-copyright{
+    color: white;
+}
+
+
+//Termina Footer

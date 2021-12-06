@@ -1,0 +1,57 @@
+//Variables Globales
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+//Colores
+
+$primary:goldenrod;
+$secondary: white;
+
+
+.custom-toggler.navbar-toggler {
+    border-color: goldenrod;
+}
+
+
+//Display
+
+$d-flex:flex;
+
+
+//BACKGROUND
+
+body{
+    background-color: black;
+}
+
+//width - height
+$w-30:30%;
+$w-40:40%;
+$w-50:50%;
+$w-75:75%;
+$w-85:85%;
+$w-100:100%;
+
+$h-100:100vh;
+
+//Margin - padding - spacing
+
+$s-50:50px;
+$s-100: 100px;
+$s-200: 200px;
+$s-250: 250px;
+$s-300: 300px;
+$s-350: 350px;
+$s-400: 400px;
+$s-500: 500px;
+
+$ml-300: 300px;
+
+
+
+
+

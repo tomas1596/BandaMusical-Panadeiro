@@ -1,0 +1,14 @@
+nav{
+    width: $w-85;
+}
+
+nav{
+    ul{
+        font-weight: $text-wl;
+        font-size: $textMedium;
+        display: $d-flex;
+        justify-content: space-evenly;
+        margin-left: 260px;
+        width: $w-40;
+    }
+}

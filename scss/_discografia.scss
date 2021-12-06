@@ -1,0 +1,58 @@
+/* Empieza Contenido Principal */
+
+.discPosition{    
+    position: relative;
+    text-align: left;
+    width: 40%;
+    font-weight: 200;
+    font-size: 2rem;
+    top: 90px;
+    left: 210px;
+    color: goldenrod;
+}
+
+.discPPosition{
+    position: relative;
+    text-align: left;
+    width: 30%;
+    font-weight: 200;
+    font-size: 1.5rem;
+    top: 130px;
+    left: 170px;
+}
+
+.spotifyPosition{
+    width: 40%;
+    float: right;
+}
+
+.spotifyPosition2{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 170px;
+    text-align: center;
+    color: goldenrod;
+}
+
+/* Termina Contenido Principal */
+
+/* EMPIEZA FOOTER */
+.footer__discografia{
+    width: $w-75;
+    display: $d-flex;
+    justify-content: space-between;
+    padding-left: $s-50;
+    padding-right: $s-50;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+.footer__discografia-socialMedia{
+    display: flex;
+    width: 13%;
+    justify-content: space-between;
+}
+
+.footer__discografia-copyright{
+    color: white;
+}

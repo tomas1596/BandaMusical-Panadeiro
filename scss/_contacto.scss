@@ -1,0 +1,89 @@
+/* EMPIEZA CONTENIDO PRINCIPAL */
+
+.contact__position{    
+    position: relative;
+    text-align: left;
+    font-weight: 200;
+    font-size: 2rem;
+    top: 90px;
+    left: 170px;
+    color: $primary
+}
+
+.contact__info{
+    position: relative;
+    width: 50%;
+    float: left;
+    clear: both;
+    top: 100px;
+    left: 170px;
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: $secondary;
+}
+
+.contact__foto{
+    position: relative;
+    width: 40%;
+    float: left;
+    clear: both;
+    top: 150px;
+    left: 170px;
+    height: 60vh;
+    z-index: 1;
+}
+
+/* FORMULARIO */
+.contact__form{
+    position: relative;
+    width: 50%;
+    float: right;
+    left: 200px;
+    top: 50px;
+    color: $secondary;
+    font-weight: 500;
+    font-size: 1.10rem;
+}
+
+.contact__form-border{
+    border-style: none;
+}
+
+input, button, textarea{
+    border-color: white;
+    border-width: 1,5px;
+}
+
+.btn__size-delete, .btn__size-send {
+    height: 35px;
+    width: 70px;
+    flex: 0 0 200px;
+}
+/* CIERRA FORMULARIO */
+
+/* TERMINA CONTENIDO PRINCIPAL */
+
+/* EMPIEZA FOOTER */
+
+.footer__contact-spacing{
+    width: $w-75;
+    display: $d-flex;
+    justify-content: space-between;
+    padding-left: $s-50;
+    padding-right: $s-50;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+.footer__contact-socialMedia{
+    display: flex;
+    width: 13%;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.footer__contact-copyright{
+    color: white;
+}
+
+/* TERMINA FOOTER */

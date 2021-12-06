@@ -1,0 +1,46 @@
+//Comienza Contenido Principal
+
+.galeria__title{   
+    display: $d-flex;
+    justify-content: center;
+    position: relative;
+    font-weight: $text-wm;
+    font-size: $textBig;
+    top: $s-50;
+    color: $primary;
+}
+
+.carousel__center{
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+//Termina Contenido Principal
+
+//Footer
+
+.footer__galeria{
+    width: 78%;
+    display: $d-flex;
+    justify-content: space-between;
+    padding-left: $s-50;
+    padding-right: $s-50;
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+.footer__galeria-redes{
+    display: $d-flex;
+    width: 13%;
+    justify-content: space-between;
+}
+
+.footer__galeria-copyright{
+    display: $d-flex;
+    justify-content: space-between;
+    padding-left: $s-50;
+    padding-right: $s-50;
+    color: $secondary;
+}
+
+//Termina Footer
