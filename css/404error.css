@@ -9,7 +9,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /* CONTENIDO PRINCIPAL */
@@ -26,6 +25,7 @@
 }
 
 .center_body{
+    font-family: 'Montserrat', sans-serif;
     width: 65%;
     height: 70%;
     background-image: url(/img/error404-photo.jpg);
